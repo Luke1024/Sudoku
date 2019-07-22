@@ -31,3 +31,7 @@ z
 Jsrc/test/java/com/kodilla/sudoku/game/utilities/io/input/InputManager.java,0/9/099c8d11fed2ebaabea0209dca5a54719d6fbeef
 |
 Lsrc/test/java/com/kodilla/sudoku/game/utilities/io/output/OutputManager.java,e/e/ee2915209ee7eaf253fdc3e7597968238baa76f0
+í
+bsrc/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/BoardBacktrack.java,0/3/0325f0a095de104eaf60c414e7f3dfbd2538d487
+è
+_src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoard.java,d/e/de4a36be25629f4960c9a70a48ee02fd19736571

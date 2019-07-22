@@ -41,17 +41,24 @@ public class SudokuSolver {
         boolean progress = true;
         removeNonAvailableElements();
         if( ! setNewValueIfPossible()) {
-            guessValue();
-        }
-        if ( ! checkIfBoardIsOkSoFar()) {
-            if (!isBacktrackEmpty()) {
-                loadBoardFromBacktrack();
-            } else {
-                setSolvingStatusToImpossible();
-                progress = false;
+            if( ! guessValue()) {
+                loadBackTrack();
             }
         }
+        if ( ! checkIfBoardIsOkSoFar()) {
+            progress = loadBackTrack();
+        }
         return progress;
+    }
+
+    private boolean loadBackTrack(){
+        if (!isBacktrackEmpty()) {
+            loadBoardFromBacktrack();
+            return true;
+        } else {
+            setSolvingStatusToImpossible();
+            return false;
+        }
     }
 
     private boolean checkIfBoardIsOkSoFar(){
@@ -91,7 +98,7 @@ public class SudokuSolver {
 
 
 
-    private void guessValue() {
+    private boolean guessValue() {
 
         List<SudokuField> emptyFieldSpaceAvailableForGuessing = this.boardContainer.getFieldSpaceAvailableForGuessing();
         List<SudokuField> guessingHistory = this.boardContainer.getGuessingHistory();
@@ -109,8 +116,9 @@ public class SudokuSolver {
                     pickedField.getFieldCoord().getX(),
                     pickedField.getFieldCoord().getY(),
                     new SudokuElement(pickedField.getValue()));
+            return true;
         } else {
-            System.out.println("Guessing space not available");
+            return false;
         }
     }
 
