@@ -1,27 +1,29 @@
 package com.kodilla.sudoku.game.utilities.board.utilities.board.elements;
 
-import com.kodilla.sudoku.game.utilities.board.utilities.FieldCoord;
+import com.kodilla.sudoku.game.utilities.board.utilities.SudokuField;
+
+import java.util.List;
 
 public class BoardBacktrack {
     private SudokuBoard sudokuBoard;
-    private FieldCoord fieldCoord;
-    private int value;
+    private SudokuField sudokuField;
+    private List<SudokuField> guessingHistory;
 
-    public BoardBacktrack(SudokuBoard sudokuBoard, FieldCoord fieldCoord, int value) {
+    public BoardBacktrack(SudokuBoard sudokuBoard, SudokuField sudokuField, List<SudokuField> guessingHistory) {
         this.sudokuBoard = sudokuBoard;
-        this.fieldCoord = fieldCoord;
-        this.value = value;
+        this.sudokuField = sudokuField;
+        this.guessingHistory = guessingHistory;
     }
 
     public SudokuBoard getSudokuBoard() {
         return sudokuBoard;
     }
 
-    public FieldCoord getFieldCoord() {
-        return fieldCoord;
+    public SudokuField getSudokuField() {
+        return sudokuField;
     }
 
-    public int getValue() {
-        return value;
+    public List<SudokuField> getGuessingHistory() {
+        return guessingHistory;
     }
 }

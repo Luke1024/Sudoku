@@ -9,9 +9,11 @@ import com.kodilla.sudoku.game.utilities.solver.utilities.SolverStatus;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class BoardContainer {
     private SudokuBoard sudokuBoard = new SudokuBoard();
+    private List<SudokuField> guessingHistory = new ArrayList<>();
     private List<BoardBacktrack> boardBacktrack = new ArrayList<>();
     private SolverStatus solverStatus;
 
@@ -35,10 +37,33 @@ public class BoardContainer {
         this.solverStatus = solverStatus;
     }
 
+    public List<SudokuField> getGuessingHistory() {
+        return guessingHistory;
+    }
+
+    public void setGuessingHistory(List<SudokuField> guessingHistory) {
+        this.guessingHistory = guessingHistory;
+    }
+
     public List<SudokuField> getFieldSpaceAvailableForGuessing(){
         List<FieldCoord> emptyFields = sudokuBoard.getEmptyFieldCoordsList();
-        return processFieldCoordToFieldSpace(emptyFields);
+        List<SudokuField> fieldSpace = processFieldCoordToFieldSpace(emptyFields);
+        return subtractGuessingHistoryFromAvailableFieldSpace(fieldSpace);
     }
+
+    private List<SudokuField> subtractGuessingHistoryFromAvailableFieldSpace(List<SudokuField> fieldSpace){
+        List<SudokuField> subtractedFieldSpace = fieldSpace;
+        for(SudokuField alreadyGuessedField : this.guessingHistory){
+            subtractedFieldSpace = subtractedFieldSpace.stream()
+                    .filter(f -> f.getValue() != alreadyGuessedField.getValue() &&
+                            f.getFieldCoord().getX() != alreadyGuessedField.getFieldCoord().getX() &&
+                            f.getFieldCoord().getY() != alreadyGuessedField.getFieldCoord().getY())
+                    .collect(Collectors.toList());
+        }
+        return subtractedFieldSpace;
+    }
+
+
 
     private List<SudokuField> processFieldCoordToFieldSpace(List<FieldCoord> emptyFields) {
         List<SudokuField> sudokuFieldSpace = new ArrayList<>();
@@ -52,6 +77,9 @@ public class BoardContainer {
 
     public BoardBacktrack getLastBacktrackAndDelete() {
         BoardBacktrack backtrack = this.boardBacktrack.get(boardBacktrack.size()-1);
+
+        System.out.println("Backtrack size: " + boardBacktrack.size());
+
         this.boardBacktrack.remove(boardBacktrack.size()-1);
         return backtrack;
     }

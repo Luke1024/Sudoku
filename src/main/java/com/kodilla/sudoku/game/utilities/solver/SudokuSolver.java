@@ -94,12 +94,24 @@ public class SudokuSolver {
     private void guessValue() {
 
         List<SudokuField> emptyFieldSpaceAvailableForGuessing = this.boardContainer.getFieldSpaceAvailableForGuessing();
-        SudokuField pickedField = emptyFieldSpaceAvailableForGuessing.get(randomGenerator.nextInt(emptyFieldSpaceAvailableForGuessing.size()));
+        List<SudokuField> guessingHistory = this.boardContainer.getGuessingHistory();
 
-        saveBoardInBacktrack(pickedField);
+        if ( ! emptyFieldSpaceAvailableForGuessing.isEmpty()) {
 
-        this.boardContainer.getSudokuBoard().setElement(
-                pickedField.getFieldCoord().getX(), pickedField.getFieldCoord().getY(), new SudokuElement(pickedField.getValue()));
+            System.out.println("EmptyFieldSpaceAvailable :" + emptyFieldSpaceAvailableForGuessing.size());
+
+            SudokuField pickedField = emptyFieldSpaceAvailableForGuessing
+                    .get(randomGenerator.nextInt(emptyFieldSpaceAvailableForGuessing.size()));
+
+            saveBoardInBacktrack(pickedField, guessingHistory);
+
+            this.boardContainer.getSudokuBoard().setElement(
+                    pickedField.getFieldCoord().getX(),
+                    pickedField.getFieldCoord().getY(),
+                    new SudokuElement(pickedField.getValue()));
+        } else {
+            System.out.println("Guessing space not available");
+        }
     }
 
     private boolean isBacktrackEmpty(){
@@ -108,17 +120,20 @@ public class SudokuSolver {
 
     public void loadBoardFromBacktrack() {
         BoardBacktrack boardBacktrack = boardContainer.getLastBacktrackAndDelete();
+        List<SudokuField> guessingHistory = boardBacktrack.getGuessingHistory();
+        guessingHistory.add(boardBacktrack.getSudokuField());
+        this.boardContainer.setGuessingHistory(guessingHistory);
         this.boardContainer.setSudokuBoard(boardBacktrack.getSudokuBoard());
     }
 
-    private void saveBoardInBacktrack(SudokuField pickedField) {
+    private void saveBoardInBacktrack(SudokuField pickedField, List<SudokuField> guessingHistory) {
         try{
             SudokuBoard sudokuBoard = boardContainer.getSudokuBoard().deepCopy();
             FieldCoord fieldCoord = new FieldCoord(pickedField.getFieldCoord().getX(), pickedField.getFieldCoord().getY());
             int value = pickedField.getValue();
 
             this.boardContainer.addBacktrack(
-                    new BoardBacktrack(sudokuBoard, fieldCoord, value));
+                    new BoardBacktrack(sudokuBoard, new SudokuField(value, fieldCoord), guessingHistory));
         } catch (CloneNotSupportedException e) {
             System.out.println(e);
         }
