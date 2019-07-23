@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 public class BoardContainer {
     private SudokuBoard sudokuBoard = new SudokuBoard();
-    private List<SudokuField> guessingHistory = new ArrayList<>();
+    private List<SudokuField> incorrectGuessingHistory = new ArrayList<>();
     private List<BoardBacktrack> boardBacktrack = new ArrayList<>();
     private SolverStatus solverStatus;
 
@@ -37,27 +37,28 @@ public class BoardContainer {
         this.solverStatus = solverStatus;
     }
 
-    public List<SudokuField> getGuessingHistory() {
-        return guessingHistory;
+    public List<SudokuField> getIncorrectGuessingHistory() {
+        return incorrectGuessingHistory;
     }
 
-    public void setGuessingHistory(List<SudokuField> guessingHistory) {
-        this.guessingHistory = guessingHistory;
+    public void setIncorrectGuessingHistory(List<SudokuField> incorrectGuessingHistory) {
+        this.incorrectGuessingHistory = incorrectGuessingHistory;
     }
 
     public List<SudokuField> getFieldSpaceAvailableForGuessing(){
         List<FieldCoord> emptyFields = sudokuBoard.getEmptyFieldCoordsList();
+        System.out.println("Empty fields: " + emptyFields.size());
         List<SudokuField> fieldSpace = processFieldCoordToFieldSpace(emptyFields);
         return subtractGuessingHistoryFromAvailableFieldSpace(fieldSpace);
     }
 
     private List<SudokuField> subtractGuessingHistoryFromAvailableFieldSpace(List<SudokuField> fieldSpace){
         List<SudokuField> subtractedFieldSpace = fieldSpace;
-        for(SudokuField alreadyGuessedField : this.guessingHistory){
+        for(SudokuField alreadyGuessedField : this.incorrectGuessingHistory){
             subtractedFieldSpace = subtractedFieldSpace.stream()
-                    .filter(f -> f.getValue() != alreadyGuessedField.getValue() &&
-                            f.getFieldCoord().getX() != alreadyGuessedField.getFieldCoord().getX() &&
-                            f.getFieldCoord().getY() != alreadyGuessedField.getFieldCoord().getY())
+                    .filter(f -> ! (f.getValue() == alreadyGuessedField.getValue() &&
+                            f.getFieldCoord().getX() == alreadyGuessedField.getFieldCoord().getX() &&
+                            f.getFieldCoord().getY() == alreadyGuessedField.getFieldCoord().getY()))
                     .collect(Collectors.toList());
         }
         return subtractedFieldSpace;

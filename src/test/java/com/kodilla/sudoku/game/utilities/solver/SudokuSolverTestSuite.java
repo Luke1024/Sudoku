@@ -51,6 +51,7 @@ public class SudokuSolverTestSuite {
 
         sudokuSolver.solveSudoku();
 
+        System.out.println("Solver status: " + sudokuSolver.getBoardContainer().getSudokuBoard().toString());
         System.out.println(sudokuSolver.getBoardContainer().getSudokuBoard().toString());
     }
 }

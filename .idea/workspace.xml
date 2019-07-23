@@ -4,9 +4,12 @@
     <list default="true" id="dd591f22-c22a-496f-b9a8-3d7617303ece" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1a89a4452ae0e30511472d9e48a5d86ba8468ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1a89a4452ae0e30511472d9e48a5d86ba8468ec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1c2f973c3156b6a656765553b46720d67a4dea3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1c2f973c3156b6a656765553b46720d67a4dea3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de4a36be25629f4960c9a70a48ee02fd19736571" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de4a36be25629f4960c9a70a48ee02fd19736571" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,22 +26,28 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5033461">
+    <splitter split-orientation="horizontal" split-proportion="0.4936337">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+                <state relative-caret-position="697">
+                  <caret line="133" column="67" selection-start-line="133" selection-start-column="67" selection-end-line="133" selection-end-column="67" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1289#1290#0" expanded="true" />
                     <element signature="e#1336#1337#0" expanded="true" />
-                    <element signature="e#2217#2218#0" expanded="true" />
-                    <element signature="e#2300#2301#0" expanded="true" />
-                    <element signature="e#2481#2482#0" expanded="true" />
-                    <element signature="e#2558#2559#0" expanded="true" />
+                    <element signature="e#2231#2232#0" expanded="true" />
+                    <element signature="e#2314#2315#0" expanded="true" />
+                    <element signature="e#2360#2361#0" expanded="true" />
+                    <element signature="e#2432#2433#0" expanded="true" />
+                    <element signature="e#2617#2618#0" expanded="true" />
+                    <element signature="e#2694#2695#0" expanded="true" />
+                    <element signature="e#3119#3120#0" expanded="true" />
+                    <element signature="e#3161#3162#0" expanded="true" />
+                    <element signature="e#4311#4312#0" expanded="true" />
+                    <element signature="e#4372#4373#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -71,11 +80,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="45" selection-start-line="45" selection-end-line="45" />
+                <state relative-caret-position="609">
+                  <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
                 </state>
               </provider>
             </entry>
@@ -83,14 +92,14 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="vertical" split-proportion="0.2888118">
+        <splitter split-orientation="vertical" split-proportion="0.19414894">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoard.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="17">
-                      <caret line="1" selection-start-line="1" selection-end-line="1" />
+                    <state relative-caret-position="36">
+                      <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
                       <folding>
                         <element signature="imports" expanded="true" />
                       </folding>
@@ -105,10 +114,12 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="184">
-                      <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+                    <state relative-caret-position="299">
+                      <caret line="50" column="82" lean-forward="true" selection-start-line="50" selection-start-column="82" selection-end-line="50" selection-end-column="82" />
                       <folding>
                         <element signature="imports" expanded="true" />
+                        <element signature="e#4347#4348#0" expanded="true" />
+                        <element signature="e#4399#4400#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -128,16 +139,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/SudokuManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/BoardBacktrack.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
-    <option name="y" value="97" />
-    <option name="width" value="1829" />
+    <option name="x" value="173" />
+    <option name="y" value="152" />
+    <option name="width" value="1819" />
     <option name="height" value="1243" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -548,7 +559,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563803178824" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563883372366" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -606,50 +617,50 @@
       <workItem from="1563724276414" duration="976000" />
       <workItem from="1563725266959" duration="665000" />
       <workItem from="1563785038756" duration="11641000" />
-      <workItem from="1563802470533" duration="541000" />
+      <workItem from="1563802470533" duration="1036000" />
+      <workItem from="1563873485706" duration="5804000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.22 at 14h 25m 09s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.22 at 14h 25m 33s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.22 at 14h 38m 06s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.22 at 14h 43m 33s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.22 at 14h 50m 01s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.22 at 14h 50m 06s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.22 at 15h 01m 33s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.22 at 15h 01m 36s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.22 at 15h 22m 07s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.22 at 15h 35m 05s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.23 at 11h 41m 22s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.23 at 12h 16m 15s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.23 at 12h 20m 11s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.23 at 13h 44m 44s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.23 at 13h 52m 20s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.23 at 13h 52m 27s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.23 at 14h 01m 06s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.23 at 14h 01m 29s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEmptySudoku - 2019.07.23 at 14h 01m 39s.xml">
       <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13823000" />
+    <option name="totallyTimeSpent" value="20122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="2560" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16839172" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -658,13 +669,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19392523" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42912772" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32924527" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19859813" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30529594" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
@@ -754,17 +765,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="36">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -773,27 +777,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+        <state relative-caret-position="299">
+          <caret line="50" column="82" lean-forward="true" selection-start-line="50" selection-start-column="82" selection-end-line="50" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4347#4348#0" expanded="true" />
+            <element signature="e#4399#4400#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="697">
+          <caret line="133" column="67" selection-start-line="133" selection-start-column="67" selection-end-line="133" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1289#1290#0" expanded="true" />
             <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#2217#2218#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
-            <element signature="e#2481#2482#0" expanded="true" />
-            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="e#2231#2232#0" expanded="true" />
+            <element signature="e#2314#2315#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+            <element signature="e#2432#2433#0" expanded="true" />
+            <element signature="e#2617#2618#0" expanded="true" />
+            <element signature="e#2694#2695#0" expanded="true" />
+            <element signature="e#3119#3120#0" expanded="true" />
+            <element signature="e#3161#3162#0" expanded="true" />
+            <element signature="e#4311#4312#0" expanded="true" />
+            <element signature="e#4372#4373#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>

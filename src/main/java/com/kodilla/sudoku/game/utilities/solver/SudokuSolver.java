@@ -101,11 +101,12 @@ public class SudokuSolver {
     private boolean guessValue() {
 
         List<SudokuField> emptyFieldSpaceAvailableForGuessing = this.boardContainer.getFieldSpaceAvailableForGuessing();
-        List<SudokuField> guessingHistory = this.boardContainer.getGuessingHistory();
+        List<SudokuField> guessingHistory = this.boardContainer.getIncorrectGuessingHistory();
 
         if ( ! emptyFieldSpaceAvailableForGuessing.isEmpty()) {
 
-            System.out.println("EmptyFieldSpaceAvailable :" + emptyFieldSpaceAvailableForGuessing.size());
+            System.out.println("Guessing history size :" + guessingHistory.size()
+                    + "     Field space available for guessing: " + emptyFieldSpaceAvailableForGuessing.size());
 
             SudokuField pickedField = emptyFieldSpaceAvailableForGuessing
                     .get(randomGenerator.nextInt(emptyFieldSpaceAvailableForGuessing.size()));
@@ -130,7 +131,7 @@ public class SudokuSolver {
         BoardBacktrack boardBacktrack = boardContainer.getLastBacktrackAndDelete();
         List<SudokuField> guessingHistory = boardBacktrack.getGuessingHistory();
         guessingHistory.add(boardBacktrack.getSudokuField());
-        this.boardContainer.setGuessingHistory(guessingHistory);
+        this.boardContainer.setIncorrectGuessingHistory(guessingHistory);
         this.boardContainer.setSudokuBoard(boardBacktrack.getSudokuBoard());
     }
 
