@@ -33,9 +33,17 @@ public class SudokuSolver {
             if( ! tryToFillSingleField()){
                 break;
             }
+            if(getIterationCounter() == 1000){
+                break;
+            }
         }
-        setSolvingStatusToSolved(); //this is not correct
+        setSolvingStatusToSolved();
     }
+
+    public BoardContainer getBoardContainer(){
+        return this.boardContainer;
+    }
+
 
     private boolean tryToFillSingleField(){
         boolean progress = true;
@@ -43,7 +51,6 @@ public class SudokuSolver {
         if( ! setNewValueIfPossible()) {
             guessValue();
             if( ! checkIfBoardIsOkSoFar()) {
-                System.out.println("board not ok" + this.boardContainer.getIterationCounter());
                 progress = loadBackTrack();
             }
         }
@@ -58,6 +65,9 @@ public class SudokuSolver {
             setSolvingStatusToImpossible();
             return false;
         }
+    }
+    private int getIterationCounter(){
+        return this.boardContainer.getIterationCounter();
     }
 
     private void countIteration(){
@@ -91,13 +101,8 @@ public class SudokuSolver {
         return newValueSetter.isNewValueSet();
     }
 
-
     private void removeNonAvailableElements(){
         this.boardContainer.setSudokuBoard(nonAvailableElementsRemover.remove(this.boardContainer.getSudokuBoard()));
-    }
-
-    public BoardContainer getBoardContainer(){
-        return this.boardContainer;
     }
 
     private boolean isBoardFull() {
@@ -116,8 +121,8 @@ public class SudokuSolver {
             saveBoardInBacktrack(pickedField);
 
             this.boardContainer.getSudokuBoard().setElement(
-                    pickedField.getFieldCoord().getX(),
-                    pickedField.getFieldCoord().getY(),
+                    pickedField.getX(),
+                    pickedField.getY(),
                     new SudokuElement(pickedField.getValue()));
         }
     }
@@ -126,17 +131,17 @@ public class SudokuSolver {
         return this.boardContainer.isBacktrackEmpty();
     }
 
-    public void loadBoardFromBacktrack() {
+    private void loadBoardFromBacktrack() {
         BoardBacktrack boardBacktrack = this.boardContainer.getLastBacktrackAndDelete();
         boardBacktrack = deleteAvailableField(boardBacktrack);
         this.boardContainer.setSudokuBoard(boardBacktrack.getSudokuBoard());
     }
 
-    public BoardBacktrack deleteAvailableField(BoardBacktrack boardBacktrack){
+    private BoardBacktrack deleteAvailableField(BoardBacktrack boardBacktrack){
         SudokuBoard sudokuBoard = boardBacktrack.getSudokuBoard();
         SudokuField sudokuField = boardBacktrack.getSudokuField();
 
-        sudokuBoard.getElement(sudokuField.getFieldCoord().getX(), sudokuField.getFieldCoord().getY())
+        sudokuBoard.getElement(sudokuField.getX(), sudokuField.getY())
                 .getAvailableNumbers().remove(new Integer(sudokuField.getValue()));
         return new BoardBacktrack(sudokuBoard, sudokuField);
     }

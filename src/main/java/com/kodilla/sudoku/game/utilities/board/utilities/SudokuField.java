@@ -2,18 +2,24 @@ package com.kodilla.sudoku.game.utilities.board.utilities;
 
 public class SudokuField {
     private int value;
-    private FieldCoord fieldCoord;
+    private int x;
+    private int y;
 
-    public SudokuField(int value, FieldCoord fieldCoord) {
+    public SudokuField(int value, int x, int y) {
         this.value = value;
-        this.fieldCoord = fieldCoord;
+        this.x = x;
+        this.y = y;
     }
 
     public int getValue() {
         return value;
     }
 
-    public FieldCoord getFieldCoord() {
-        return fieldCoord;
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
     }
 }

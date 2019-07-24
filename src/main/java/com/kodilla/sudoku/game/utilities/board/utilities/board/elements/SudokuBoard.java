@@ -50,7 +50,7 @@ public class SudokuBoard extends Prototype {
 
     @Override
     public String toString() {
-        String boardToString = new String();
+        String boardToString = "";
         for(int x=0; x<9; x++){
             for(int y=0; y<9; y++){
                 int value = getElement(x,y).getValue();

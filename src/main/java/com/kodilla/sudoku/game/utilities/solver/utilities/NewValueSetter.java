@@ -45,10 +45,8 @@ public class NewValueSetter {
     private void setNewValue(){
         for (int x = 0; x < 9; x++) {
             for (int y = 0; y < 9; y++) {
-                if(isFieldEmpty(x, y)){
-                    if(this.sudokuBoard.getElement(x,y).getAvailableNumbers().size()==1) {
+                if(isFieldEmpty(x, y) && this.sudokuBoard.getElement(x,y).getAvailableNumbers().size()==1) {
                         this.sudokuBoard.setElement(x, y, new SudokuElement(sudokuBoard.getElement(x,y).getAvailableNumbers().get(0)));
-                    }
                 }
             }
         }

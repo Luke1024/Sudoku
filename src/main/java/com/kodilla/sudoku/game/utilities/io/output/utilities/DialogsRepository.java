@@ -17,7 +17,6 @@ public class DialogsRepository {
                         "Single input is only correct with 3 numbers ended with ;" + "\n" +
                         "With uncompleted sequence like 2,4,5; 4,6; incorrect inputs are skipped." +
                         "You accept input sequence by write SUDOKU and calling sudoku solver." + "\n");}
-    public void inputRulesDetails() {}
     public void skippedIncorrect() {print("Skipped incorrect sequence: ");}
     public void solvingFailed() {print("Solving failed.");}
 
