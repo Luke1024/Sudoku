@@ -15,6 +15,7 @@ public class BoardContainer {
     private SudokuBoard sudokuBoard = new SudokuBoard();
     private List<SudokuField> incorrectGuessingHistory = new ArrayList<>();
     private List<BoardBacktrack> boardBacktrack = new ArrayList<>();
+    private int iterationCounter;
     private SolverStatus solverStatus;
 
     public void createBoardFromArray(int[][] boardArray)  {
@@ -45,11 +46,19 @@ public class BoardContainer {
         this.incorrectGuessingHistory = incorrectGuessingHistory;
     }
 
+    public int getIterationCounter() {
+        return iterationCounter;
+    }
+
+    public void setIterationCounter(int iterationCounter) {
+        this.iterationCounter = iterationCounter;
+    }
+
     public List<SudokuField> getFieldSpaceAvailableForGuessing(){
         List<FieldCoord> emptyFields = sudokuBoard.getEmptyFieldCoordsList();
-        System.out.println("Empty fields: " + emptyFields.size());
-        List<SudokuField> fieldSpace = processFieldCoordToFieldSpace(emptyFields);
-        return subtractGuessingHistoryFromAvailableFieldSpace(fieldSpace);
+        //System.out.println("Empty fields: " + emptyFields.size());
+        //List<SudokuField> fieldSpace = processFieldCoordToFieldSpace(emptyFields);
+        return processFieldCoordToFieldSpace(emptyFields);
     }
 
     private List<SudokuField> subtractGuessingHistoryFromAvailableFieldSpace(List<SudokuField> fieldSpace){
@@ -79,7 +88,7 @@ public class BoardContainer {
     public BoardBacktrack getLastBacktrackAndDelete() {
         BoardBacktrack backtrack = this.boardBacktrack.get(boardBacktrack.size()-1);
 
-        System.out.println("Backtrack size: " + boardBacktrack.size());
+        //System.out.println("Backtrack size: " + boardBacktrack.size());
 
         this.boardBacktrack.remove(boardBacktrack.size()-1);
         return backtrack;

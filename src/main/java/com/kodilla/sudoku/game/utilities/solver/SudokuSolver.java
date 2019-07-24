@@ -1,7 +1,5 @@
 package com.kodilla.sudoku.game.utilities.solver;
-
 import com.kodilla.sudoku.game.utilities.board.BoardContainer;
-import com.kodilla.sudoku.game.utilities.board.utilities.FieldCoord;
 import com.kodilla.sudoku.game.utilities.board.utilities.SudokuField;
 import com.kodilla.sudoku.game.utilities.board.utilities.board.elements.BoardBacktrack;
 import com.kodilla.sudoku.game.utilities.board.utilities.board.elements.SudokuBoard;
@@ -28,25 +26,25 @@ public class SudokuSolver {
     }
 
     public void solveSudoku() {
+        resetIterationCounter();
+        setSolvingStatusToInProgress();
         while( ! isBoardFull()) {
+            countIteration();
             if( ! tryToFillSingleField()){
                 break;
             }
         }
-        setSolvingStatusToSolved();
+        setSolvingStatusToSolved(); //this is not correct
     }
 
     private boolean tryToFillSingleField(){
-        setSolvingStatusToInProgress();
         boolean progress = true;
         removeNonAvailableElements();
+
         if( ! setNewValueIfPossible()) {
-            if( ! guessValue()) {
-                loadBackTrack();
+            if(! guessValue()){
+                progress = loadBackTrack();
             }
-        }
-        if ( ! checkIfBoardIsOkSoFar()) {
-            progress = loadBackTrack();
         }
         return progress;
     }
@@ -59,6 +57,16 @@ public class SudokuSolver {
             setSolvingStatusToImpossible();
             return false;
         }
+    }
+
+    private void countIteration(){
+        int count = this.boardContainer.getIterationCounter();
+        count++;
+        this.boardContainer.setIterationCounter(count);
+    }
+
+    private void resetIterationCounter(){
+        this.boardContainer.setIterationCounter(0);
     }
 
     private boolean checkIfBoardIsOkSoFar(){
@@ -95,28 +103,25 @@ public class SudokuSolver {
         return this.boardContainer.getSudokuBoard().getEmptyFieldCoordsList().isEmpty();
     }
 
-
-
-
     private boolean guessValue() {
 
         List<SudokuField> emptyFieldSpaceAvailableForGuessing = this.boardContainer.getFieldSpaceAvailableForGuessing();
-        List<SudokuField> guessingHistory = this.boardContainer.getIncorrectGuessingHistory();
 
-        if ( ! emptyFieldSpaceAvailableForGuessing.isEmpty()) {
-
-            System.out.println("Guessing history size :" + guessingHistory.size()
-                    + "     Field space available for guessing: " + emptyFieldSpaceAvailableForGuessing.size());
+        if ( ! isBoardFull()) {
 
             SudokuField pickedField = emptyFieldSpaceAvailableForGuessing
                     .get(randomGenerator.nextInt(emptyFieldSpaceAvailableForGuessing.size()));
 
-            saveBoardInBacktrack(pickedField, guessingHistory);
+
+            saveBoardInBacktrack();
 
             this.boardContainer.getSudokuBoard().setElement(
                     pickedField.getFieldCoord().getX(),
                     pickedField.getFieldCoord().getY(),
                     new SudokuElement(pickedField.getValue()));
+        }
+
+        if (checkIfBoardIsOkSoFar()){
             return true;
         } else {
             return false;
@@ -128,21 +133,15 @@ public class SudokuSolver {
     }
 
     public void loadBoardFromBacktrack() {
-        BoardBacktrack boardBacktrack = boardContainer.getLastBacktrackAndDelete();
-        List<SudokuField> guessingHistory = boardBacktrack.getGuessingHistory();
-        guessingHistory.add(boardBacktrack.getSudokuField());
-        this.boardContainer.setIncorrectGuessingHistory(guessingHistory);
+        BoardBacktrack boardBacktrack = this.boardContainer.getLastBacktrackAndDelete();
         this.boardContainer.setSudokuBoard(boardBacktrack.getSudokuBoard());
     }
 
-    private void saveBoardInBacktrack(SudokuField pickedField, List<SudokuField> guessingHistory) {
+    private void saveBoardInBacktrack() {
         try{
             SudokuBoard sudokuBoard = boardContainer.getSudokuBoard().deepCopy();
-            FieldCoord fieldCoord = new FieldCoord(pickedField.getFieldCoord().getX(), pickedField.getFieldCoord().getY());
-            int value = pickedField.getValue();
-
             this.boardContainer.addBacktrack(
-                    new BoardBacktrack(sudokuBoard, new SudokuField(value, fieldCoord), guessingHistory));
+                    new BoardBacktrack(sudokuBoard));
         } catch (CloneNotSupportedException e) {
             System.out.println(e);
         }
