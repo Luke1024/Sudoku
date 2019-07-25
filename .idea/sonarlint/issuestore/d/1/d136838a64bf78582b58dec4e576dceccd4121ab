@@ -1,0 +1,32 @@
+
+T
+squid:S106S"9Replace this use of System.out or System.err by a logger.(îå¾¶úÿÿÿÿ
+osquid:S00117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò‡Ÿ‡úÿÿÿÿ
+P
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(ÀÍùŸ
+osquid:S00117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¨¥ëùÿÿÿÿ
+P
+squid:S106¥"9Replace this use of System.out or System.err by a logger.(·å´Í
+T
+squid:S106G"9Replace this use of System.out or System.err by a logger.(ŒúËÚûÿÿÿÿ
+t
+squid:S135M"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
+T
+squid:S106K"9Replace this use of System.out or System.err by a logger.(¿¶®Åüÿÿÿÿ
+O
+squid:S106W"9Replace this use of System.out or System.err by a logger.(Ý»‹ˆ
+T
+squid:S106m"9Replace this use of System.out or System.err by a logger.(©‰‹òúÿÿÿÿ
+osquid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ãÏÇþÿÿÿÿ
+O
+squid:S106c"9Replace this use of System.out or System.err by a logger.(¹¦¾Ù
+U
+squid:S106†"9Replace this use of System.out or System.err by a logger.(¢²Í‚ýÿÿÿÿ
+lsquid:S3008"PRename this field "REGEX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠËúØýÿÿÿÿ
+O
+squid:S106;"9Replace this use of System.out or System.err by a logger.(Ý»‹ˆ
+P
+squid:S106‰"9Replace this use of System.out or System.err by a logger.(„§å¶
+nsquid:S3776J"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Þ›Œ†ûÿÿÿÿ
+O
+squid:S106A"9Replace this use of System.out or System.err by a logger.(òë—ê

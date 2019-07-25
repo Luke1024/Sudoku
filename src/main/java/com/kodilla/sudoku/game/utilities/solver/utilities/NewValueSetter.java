@@ -1,6 +1,7 @@
 package com.kodilla.sudoku.game.utilities.solver.utilities;
 
 import com.kodilla.sudoku.game.utilities.board.utilities.board.elements.SudokuBoard;
+import com.kodilla.sudoku.game.utilities.board.utilities.board.elements.SudokuElement;
 
 public class NewValueSetter {
     private SudokuBoard sudokuBoard;
@@ -44,11 +45,14 @@ public class NewValueSetter {
     private void setNewValue(){
         for (int x = 0; x < 9; x++) {
             for (int y = 0; y < 9; y++) {
-                if(this.sudokuBoard.getElement(x,y).getAvailableNumbers().size()==1){
-                    this.sudokuBoard.getElement(x,y).setValue(
-                            this.sudokuBoard.getElement(x,y).getAvailableNumbers().get(0));
+                if(isFieldEmpty(x, y) && this.sudokuBoard.getElement(x,y).getAvailableNumbers().size()==1) {
+                        this.sudokuBoard.setElement(x, y, new SudokuElement(sudokuBoard.getElement(x,y).getAvailableNumbers().get(0)));
                 }
             }
         }
+    }
+
+    private boolean isFieldEmpty(int x, int y) {
+        return this.sudokuBoard.getElement(x, y).getValue() == SudokuElement.EMPTY_VALUE;
     }
 }

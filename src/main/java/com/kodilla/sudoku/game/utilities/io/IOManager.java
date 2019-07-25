@@ -1,7 +1,6 @@
 package com.kodilla.sudoku.game.utilities.io;
 
 import com.kodilla.sudoku.game.utilities.board.BoardContainer;
-import com.kodilla.sudoku.game.utilities.board.utilities.FieldCoord;
 import com.kodilla.sudoku.game.utilities.board.utilities.SudokuField;
 import com.kodilla.sudoku.game.utilities.board.utilities.board.elements.SudokuBoard;
 import com.kodilla.sudoku.game.utilities.board.utilities.board.elements.SudokuElement;
@@ -146,7 +145,7 @@ public class IOManager {
         int x = Character.getNumericValue(sequence.charAt(0));
         int y = Character.getNumericValue(sequence.charAt(2));
         int value = Character.getNumericValue(sequence.charAt(4));
-        return new SudokuField(value,new FieldCoord(x,y));
+        return new SudokuField(value,x,y);
     }
 
     private boolean isValuesOk(SudokuField sudokuField){
@@ -155,8 +154,8 @@ public class IOManager {
         boolean x_status = false;
         boolean y_status = false;
         int value = sudokuField.getValue();
-        int x = sudokuField.getFieldCoord().getX();
-        int y = sudokuField.getFieldCoord().getY();
+        int x = sudokuField.getX();
+        int y = sudokuField.getY();
         if((value > 0 && value < 10) || value == 0) value_status = true;
         if(x > 0 && x < 10) x_status = true;
         if(y > 0 && y < 10) y_status = true;
@@ -174,7 +173,7 @@ public class IOManager {
 
     private void addFieldToBoard(SudokuField sudokuField){
         this.boardContainer.getSudokuBoard().setElement(
-                sudokuField.getFieldCoord().getX(), sudokuField.getFieldCoord().getY(), new SudokuElement(sudokuField.getValue()));
+                sudokuField.getX(), sudokuField.getY(), new SudokuElement(sudokuField.getValue()));
     }
 
     private UserCommand translateUserCommand(String input){

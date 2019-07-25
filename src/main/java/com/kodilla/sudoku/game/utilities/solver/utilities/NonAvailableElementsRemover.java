@@ -36,12 +36,10 @@ public class NonAvailableElementsRemover {
     }
 
     private boolean checkIfRemoveNumber(Integer n, int x, int y) {
-        if (isInRow(n, x) || isInColumn(n, y) || isInBox(n, x, y)) return true;
-        else return false;
+        return isInRow(n, x) || isInColumn(n, y) || isInBox(n, x, y);
     }
 
     private void deleteNumber(Integer n, int x, int y) {
-        //System.out.println("deleting" + x + " " + y + " " + n);
         this.sudokuBoard.getElement(x, y).getAvailableNumbers().remove(new Integer(n));
     }
 
