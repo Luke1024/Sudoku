@@ -12,7 +12,6 @@ import java.util.List;
 
 public class BoardContainer {
     private SudokuBoard sudokuBoard = new SudokuBoard();
-    private List<SudokuField> incorrectGuessingHistory = new ArrayList<>();
     private List<BoardBacktrack> boardBacktrack = new ArrayList<>();
     private int iterationCounter;
     private SolverStatus solverStatus;
@@ -37,14 +36,6 @@ public class BoardContainer {
         this.solverStatus = solverStatus;
     }
 
-    public List<SudokuField> getIncorrectGuessingHistory() {
-        return incorrectGuessingHistory;
-    }
-
-    public void setIncorrectGuessingHistory(List<SudokuField> incorrectGuessingHistory) {
-        this.incorrectGuessingHistory = incorrectGuessingHistory;
-    }
-
     public int getIterationCounter() {
         return iterationCounter;
     }
@@ -58,16 +49,6 @@ public class BoardContainer {
         return processFieldCoordToFieldSpace(emptyFields);
     }
 
-    private List<SudokuField> processFieldCoordToFieldSpace(List<FieldCoord> emptyFields) {
-        List<SudokuField> sudokuFieldSpace = new ArrayList<>();
-        for (FieldCoord emptyField : emptyFields) {
-            for (int i = 0; i < 9; i++) {
-                sudokuFieldSpace.add(new SudokuField(i + 1, emptyField.getX(), emptyField.getY()));
-            }
-        }
-        return sudokuFieldSpace;
-    }
-
     public BoardBacktrack getLastBacktrackAndDelete() {
         BoardBacktrack backtrack = this.boardBacktrack.get(boardBacktrack.size()-1);
         this.boardBacktrack.remove(boardBacktrack.size()-1);
@@ -76,6 +57,20 @@ public class BoardContainer {
 
     public void addBacktrack(BoardBacktrack boardBacktrack) {
         this.boardBacktrack.add(boardBacktrack);
+    }
+
+    public boolean isBacktrackEmpty(){
+        return this.boardBacktrack.isEmpty();
+    }
+
+    private List<SudokuField> processFieldCoordToFieldSpace(List<FieldCoord> emptyFields) {
+        List<SudokuField> sudokuFieldSpace = new ArrayList<>();
+        for (FieldCoord emptyField : emptyFields) {
+            for (int i = 0; i < 9; i++) {
+                sudokuFieldSpace.add(new SudokuField(i + 1, emptyField.getX(), emptyField.getY()));
+            }
+        }
+        return sudokuFieldSpace;
     }
 
     private boolean checkIfArrayIsOk(int[][]boardArray) {
@@ -101,9 +96,5 @@ public class BoardContainer {
         if(value >= 1 && value <= 9){
             return value;
         } else return SudokuElement.EMPTY_VALUE;
-    }
-
-    public boolean isBacktrackEmpty(){
-        return this.boardBacktrack.isEmpty();
     }
 }

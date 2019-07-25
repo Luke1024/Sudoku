@@ -35,3 +35,15 @@ Lsrc/test/java/com/kodilla/sudoku/game/utilities/io/output/OutputManager.java,e
 bsrc/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/BoardBacktrack.java,0/3/0325f0a095de104eaf60c414e7f3dfbd2538d487
 è
 _src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoard.java,d/e/de4a36be25629f4960c9a70a48ee02fd19736571
+ë
+asrc/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuElement.java,9/9/990e9e95340af1b9fc3927b77fa47448d42e1f83
+
+Osrc/main/java/com/kodilla/sudoku/game/utilities/board/utilities/FieldCoord.java,f/c/fc7ab68d1c5f6b40d6c374f547ae27e59e59c999
+Ñ
+Tsrc/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/NewValueSetter.java,3/5/3537340bca3abfd128839a728caa4193ba492ec9
+Ü
+Vsrc/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/BoardFillChecker.java,b/6/b62dd6be9be9545de42311c25f2bee7f3a698807
+ë
+asrc/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/NonAvailableElementsRemover.java,e/c/ecfede46536275da4926d625d89614a192e40f4e
+b
+2src/main/java/com/kodilla/sudoku/SudokuRunner.java,a/b/ab626ff85f0a61c34d93a5293345ba7d6a898ea1

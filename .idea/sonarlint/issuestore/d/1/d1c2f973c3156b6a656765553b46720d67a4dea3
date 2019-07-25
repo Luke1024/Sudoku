@@ -1,6 +1,6 @@
 
-Msquid:S1066,"/Merge this if statement with the enclosing one.(Ì¥–Ø8¨ ÏÁ-
-V
-squid:S106l"9Replace this use of System.out or System.err by a logger.(…ÉÌ´8öË­ÏÁ-
+Esquid:S2129‘"!Remove this "Integer" constructor(ê–¶ûùÿÿÿÿ8‘¾Ó Â-
 \
-squid:S106’"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8öË­ÏÁ-
+squid:S106›"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8öË­ÏÁ-
+{
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÆÕ¾öøÿÿÿÿ8ã¨óŸÂ-

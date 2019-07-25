@@ -1,9 +1,6 @@
 
-wsquid:S1450"[Remove the "solverStatus" field and declare it as a local variable in the relevant methods.(¯Ë—úÿÿÿÿ
-[
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(Û üşÿÿÿÿ8•›áÎÁ-
-fsquid:HiddenFieldChecke"?Rename "sudokuBoard" which hides the field declared at line 15.(­ËûËûÿÿÿÿ
+^squid:S1126M"AReplace this if-then-else statement by a single return statement.(ßì¡{8œÓµÃÂ-
+~squid:S1450"[Remove the "solverStatus" field and declare it as a local variable in the relevant methods.(¯Ë—úÿÿÿÿ8…²Ş Â-
 O
-squid:S106"9Replace this use of System.out or System.err by a logger.(Í£‰Á
-Lsquid:S1068"0Remove this unused "solverStatus" private field.(¯Ë—úÿÿÿÿ
-Wsquid:S1126\"AReplace this if-then-else statement by a single return statement.(ßì¡{
+squid:S106"9Replace this use of System.out or System.err by a logger.(Í£‰Á
+Ssquid:S1068"0Remove this unused "solverStatus" private field.(¯Ë—úÿÿÿÿ8…²Ş Â-
