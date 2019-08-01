@@ -1,6 +1,6 @@
 
-8squid:S1643:"Use a StringBuilder instead.(÷üâ‹ûÿÿÿÿ
 3squid:S1643?"Use a StringBuilder instead.(éœ®ï
-8squid:S1643<"Use a StringBuilder instead.(ßè‡çıÿÿÿÿ
-µ%squid:RedundantThrowsDeclarationCheck)"}Remove the declaration of thrown exception 'java.lang.CloneNotSupportedException', as it cannot be thrown from method's body.( Äƒº8Å¼¤¡Â-
 vsquid:S1149d"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÎÛıß
+µ%squid:RedundantThrowsDeclarationCheck)"}Remove the declaration of thrown exception 'java.lang.CloneNotSupportedException', as it cannot be thrown from method's body.( Äƒº8Å¼¤¡Â-
+8squid:S1643<"Use a StringBuilder instead.(ßè‡çıÿÿÿÿ
+8squid:S1643:"Use a StringBuilder instead.(÷üâ‹ûÿÿÿÿ
