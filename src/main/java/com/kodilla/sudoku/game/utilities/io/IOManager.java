@@ -21,7 +21,6 @@ public class IOManager {
     public void gatherInputFromUser(){
         startDialog();
         readBoard();
-
     }
 
     public BoardContainer getBoardContainer(){

@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd591f22-c22a-496f-b9a8-3d7617303ece" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e7618e31551b4cfaa7ed5199b3cf615aafe1256" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e7618e31551b4cfaa7ed5199b3cf615aafe1256" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11fa72012df904b2946930795f740f6dc71a3223" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11fa72012df904b2946930795f740f6dc71a3223" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1a89a4452ae0e30511472d9e48a5d86ba8468ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1a89a4452ae0e30511472d9e48a5d86ba8468ec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d136838a64bf78582b58dec4e576dceccd4121ab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d136838a64bf78582b58dec4e576dceccd4121ab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1c2f973c3156b6a656765553b46720d67a4dea3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1c2f973c3156b6a656765553b46720d67a4dea3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de4a36be25629f4960c9a70a48ee02fd19736571" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de4a36be25629f4960c9a70a48ee02fd19736571" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecfede46536275da4926d625d89614a192e40f4e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecfede46536275da4926d625d89614a192e40f4e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kodilla/sudoku/game/utilities/board/BoardContainerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/IOManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/IOManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/output/utilities/DialogsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/output/utilities/DialogsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/board/BoardContainerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/io/input/InputManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/io/output/OutputManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/utilities/AvailableElementsRemoverTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,53 +34,13 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5126286">
+    <splitter split-orientation="horizontal" split-proportion="0.51975054">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoard.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="599">
-                  <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/SudokuManager.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#375#376#0" expanded="true" />
-                    <element signature="e#422#423#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2108">
-                  <caret line="153" column="10" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#3613#3614#0" expanded="true" />
-                    <element signature="e#3708#3709#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/NewValueSetter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="833">
+                <state relative-caret-position="850">
                   <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -85,8 +52,25 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/BoardFillChecker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#3613#3614#0" expanded="true" />
+                    <element signature="e#3708#3709#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -94,8 +78,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/IOManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2363">
-                  <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
+                <state relative-caret-position="374">
+                  <caret line="53" column="55" lean-forward="true" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -106,8 +90,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+                <state relative-caret-position="971">
+                  <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoardTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="646">
+                  <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -118,8 +114,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/output/utilities/DialogsRepository.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
                 </state>
               </provider>
             </entry>
@@ -127,11 +123,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/NonAvailableElementsRemover.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
+                <state relative-caret-position="714">
                   <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/SolverStatus.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -152,16 +157,24 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+                <state relative-caret-position="136">
+                  <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1243#1244#0" expanded="true" />
-                    <element signature="e#1289#1290#0" expanded="true" />
-                    <element signature="e#1351#1352#0" expanded="true" />
-                    <element signature="e#1399#1400#0" expanded="true" />
-                    <element signature="e#1811#1812#0" expanded="true" />
-                    <element signature="e#1867#1868#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/SudokuManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#375#376#0" expanded="true" />
+                    <element signature="e#422#423#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -196,25 +209,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/SudokuManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/BoardBacktrack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/SudokuField.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/BoardFillChecker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/output/utilities/DialogsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/IOManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/NonAvailableElementsRemover.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/NewValueSetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/IOManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/output/utilities/DialogsRepository.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
-    <option name="y" value="27" />
-    <option name="width" value="1294" />
-    <option name="height" value="1350" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-50" />
+    <option name="y" value="204" />
+    <option name="width" value="1924" />
+    <option name="height" value="1192" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -329,6 +342,75 @@
               <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="solver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="solver" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -355,6 +437,110 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="kodilla" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
+              <item name="sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="solver" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -365,7 +551,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564059204935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564669935220" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -387,24 +573,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SudokuSolverTestSuite.shouldResolveEasySudoku">
-    <configuration name="SudokuSolverTestSuite.shouldResolveEasySudoku" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sudoku6.test" />
+  <component name="RunManager" selected="Application.SudokuRunner">
+    <configuration name="SudokuRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.sudoku.SudokuRunner" />
+      <module name="Sudoku6.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.sudoku.game.utilities.solver.*" />
+          <option name="PATTERN" value="com.kodilla.sudoku.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.sudoku.game.utilities.solver" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.sudoku.game.utilities.solver.SudokuSolverTestSuite" />
-      <option name="METHOD_NAME" value="shouldResolveEasySudoku" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sudoku6.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.sudoku.game.utilities.board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.sudoku.game.utilities.board" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.sudoku.game.utilities.board.BoardContainerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SudokuBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sudoku6.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.sudoku.game.utilities.board.utilities.board.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.sudoku.game.utilities.board.utilities.board.elements" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.sudoku.game.utilities.board.utilities.board.elements.SudokuBoardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SudokuBoardTest.shouldAddGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sudoku6.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.sudoku.game.utilities.board.utilities.board.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.sudoku.game.utilities.board.utilities.board.elements" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.sudoku.game.utilities.board.utilities.board.elements.SudokuBoardTest" />
+      <option name="METHOD_NAME" value="shouldAddGrid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolverTestSuite.shouldResolveEmptySudoku" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SudokuSolverTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sudoku6.test" />
       <extension name="coverage">
         <pattern>
@@ -414,50 +643,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kodilla.sudoku.game.utilities.solver" />
       <option name="MAIN_CLASS_NAME" value="com.kodilla.sudoku.game.utilities.solver.SudokuSolverTestSuite" />
-      <option name="METHOD_NAME" value="shouldResolveEmptySudoku" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SudokuSolverTestSuite.shouldResolveGivenSudoku" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sudoku6.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.sudoku.game.utilities.solver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.sudoku.game.utilities.solver" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.sudoku.game.utilities.solver.SudokuSolverTestSuite" />
-      <option name="METHOD_NAME" value="shouldResolveGivenSudoku" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SudokuSolverTestSuite.shouldResolveMediumSudoku" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sudoku6.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.sudoku.game.utilities.solver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.sudoku.game.utilities.solver" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.sudoku.game.utilities.solver.SudokuSolverTestSuite" />
-      <option name="METHOD_NAME" value="shouldResolveMediumSudoku" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SudokuSolverTestSuite.shouldResolveEasySudoku" />
-        <item itemvalue="JUnit.SudokuSolverTestSuite.shouldResolveMediumSudoku" />
-        <item itemvalue="JUnit.SudokuSolverTestSuite.shouldResolveGivenSudoku" />
-        <item itemvalue="JUnit.SudokuSolverTestSuite.shouldResolveEmptySudoku" />
+        <item itemvalue="Application.SudokuRunner" />
+        <item itemvalue="JUnit.SudokuBoardTest" />
+        <item itemvalue="JUnit.SudokuBoardTest.shouldAddGrid" />
+        <item itemvalue="JUnit.BoardContainerTest" />
+        <item itemvalue="JUnit.SudokuSolverTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -478,31 +675,14 @@
       <workItem from="1563873485706" duration="16788000" />
       <workItem from="1563955958430" duration="18751000" />
       <workItem from="1564044369624" duration="3441000" />
+      <workItem from="1564059323629" duration="1338000" />
+      <workItem from="1564074202524" duration="2445000" />
+      <workItem from="1564421285637" duration="15000" />
+      <workItem from="1564668832261" duration="1390000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SudokuSolverTestSuite_shouldResolveMediumSudoku - 2019.07.24 at 14h 37m 55s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveMediumSudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEasySudoku - 2019.07.24 at 14h 38m 07s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEasySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveMediumSudoku - 2019.07.24 at 14h 38m 27s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveMediumSudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEasySudoku - 2019.07.24 at 14h 48m 17s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEasySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEasySudoku - 2019.07.24 at 15h 00m 46s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEasySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEasySudoku - 2019.07.24 at 15h 02m 18s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEasySudoku" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTestSuite_shouldResolveEasySudoku - 2019.07.24 at 15h 03m 32s.xml">
-      <configuration name="SudokuSolverTestSuite.shouldResolveEasySudoku" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SudokuSolverTestSuite_shouldResolveEasySudoku - 2019.07.24 at 15h 15m 06s.xml">
       <configuration name="SudokuSolverTestSuite.shouldResolveEasySudoku" configurationId="JUnit" />
     </history-entry>
@@ -512,14 +692,36 @@
     <history-entry file="SudokuSolverTestSuite_shouldResolveEasySudoku - 2019.07.25 at 11h 16m 55s.xml">
       <configuration name="SudokuSolverTestSuite.shouldResolveEasySudoku" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEasySudoku - 2019.07.25 at 14h 55m 47s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEasySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveEasySudoku - 2019.07.25 at 20h 04m 16s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveEasySudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite_shouldResolveMediumSudoku - 2019.07.25 at 20h 05m 05s.xml">
+      <configuration name="SudokuSolverTestSuite.shouldResolveMediumSudoku" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTestSuite - 2019.08.01 at 16h 14m 31s.xml">
+      <configuration name="SudokuSolverTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardContainerTest - 2019.08.01 at 16h 15m 34s.xml">
+      <configuration name="BoardContainerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuBoardTest_shouldAddGrid - 2019.08.01 at 16h 16m 22s.xml">
+      <configuration name="SudokuBoardTest.shouldAddGrid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuBoardTest - 2019.08.01 at 16h 29m 39s.xml">
+      <configuration name="SudokuBoardTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53298000" />
+    <option name="totallyTimeSpent" value="58486000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="41" width="1294" height="1350" extended-state="0" />
+    <frame x="0" y="25" width="2560" height="1415" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4317817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23407644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -528,16 +730,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3426791" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42912772" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32924527" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.42523363" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.15654206" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" order="11" visible="true" weight="0.22231337" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.3182937" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.1588785" />
@@ -560,25 +762,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuRow.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/board/BoardContainerTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoardTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/utilities/AvailableElementsRemoverTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/io/input/InputManager.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/io/output/OutputManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/BoardBacktrack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -589,13 +772,6 @@
             <element signature="e#619#620#0" expanded="true" />
             <element signature="e#653#654#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/SolverStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -613,66 +789,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="153" column="10" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3613#3614#0" expanded="true" />
-            <element signature="e#3708#3709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/NewValueSetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/BoardFillChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/IOManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/output/utilities/DialogsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/NonAvailableElementsRemover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+        <state relative-caret-position="1105">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -686,6 +806,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/SudokuField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -693,18 +823,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/BoardContainer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/board/BoardContainerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="391">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/io/input/InputManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/io/output/OutputManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolverTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="971">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/solver/utilities/AvailableElementsRemoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/output/utilities/DialogsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/io/IOManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="53" column="55" lean-forward="true" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/SudokuSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3613#3614#0" expanded="true" />
+            <element signature="e#3708#3709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/SolverStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/NonAvailableElementsRemover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/NewValueSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/solver/utilities/BoardFillChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/SudokuManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -716,24 +946,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/sudoku/game/utilities/board/utilities/board/elements/SudokuBoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        <state relative-caret-position="646">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/sudoku/game/SudokuManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
           </folding>
         </state>
       </provider>
